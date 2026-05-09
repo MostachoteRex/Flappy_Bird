@@ -8,7 +8,7 @@ Clon del clásico juego **Flappy Bird** construido con HTML5 Canvas y JavaScript
 
 | Pantalla de inicio | En juego | Game Over |
 |:-:|:-:|:-:|
-| ![Pantalla de inicio](docs/screenshots/start.png) | ![En juego](docs/screenshots/gameplay.png) | ![Game Over](docs/screenshots/gameover.png) |
+| ![Pantalla de inicio](screenshots/Pantalla-de-inicio.png) | ![En juego](screenshots/En-juego.png) | ![Game Over](screenshots/Game-over.png) |
 
 ---
 
