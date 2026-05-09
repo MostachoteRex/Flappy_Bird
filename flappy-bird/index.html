@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Bird — Juego HTML5</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas
+      id="gameCanvas"
+      width="480"
+      height="640"
+      aria-label="Flappy Bird game canvas"
+    >
+      Tu navegador no soporta HTML5 Canvas. Por favor, actualiza tu navegador.
+    </canvas>
+  </div>
+  <!-- Game modules — order matters: dependencies before dependents -->
+  <script src="js/bird.js"></script>
+  <script src="js/physics.js"></script>
+  <script src="js/pipe.js"></script>
+  <script src="js/pipeManager.js"></script>
+  <script src="js/collision.js"></script>
+  <script src="js/scoreManager.js"></script>
+  <script src="js/inputHandler.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

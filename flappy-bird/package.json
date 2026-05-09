@@ -1,0 +1,13 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "Flappy Bird game using HTML5 Canvas and vanilla JavaScript",
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "fast-check": "3.22.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}
